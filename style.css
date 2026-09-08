@@ -112,3 +112,21 @@ body {
 .github-url {
     color: #718096;
 }
+/* Limita las dimenciones de la foto para que no se expanda */
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    min-width: 140px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid #2c7a7b;
+}
+
+/* Alinea la foto a la izquierda del texto */
+.profile-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30 px;
+}
